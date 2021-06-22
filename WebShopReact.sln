@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebShopReact", "WebShopReact\WebShopReact.csproj", "{B8D8D4DA-592D-4608-AB36-80839D4085D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{ED1CA569-18C2-4E86-958E-D1299249D41D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess.DTO", "DataAccess.DTO\DataAccess.DTO.csproj", "{15629D99-FCBA-4DB7-A65D-576573AF38CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Domain", "Project.Domain\Project.Domain.csproj", "{8D7898AC-E74E-4F6E-BF9F-14371C6270A3}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WebShopReact.Shared", "WebShopReact.Shared\WebShopReact.Shared.shproj", "{26EBFD99-7250-4166-8C28-84DA8674A545}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		WebShopReact.Shared\WebShopReact.Shared.projitems*{26ebfd99-7250-4166-8c28-84da8674a545}*SharedItemsImports = 13
+		WebShopReact.Shared\WebShopReact.Shared.projitems*{b8d8d4da-592d-4608-ab36-80839d4085d9}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8D8D4DA-592D-4608-AB36-80839D4085D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D8D4DA-592D-4608-AB36-80839D4085D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D8D4DA-592D-4608-AB36-80839D4085D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D8D4DA-592D-4608-AB36-80839D4085D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED1CA569-18C2-4E86-958E-D1299249D41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1CA569-18C2-4E86-958E-D1299249D41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1CA569-18C2-4E86-958E-D1299249D41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1CA569-18C2-4E86-958E-D1299249D41D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15629D99-FCBA-4DB7-A65D-576573AF38CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15629D99-FCBA-4DB7-A65D-576573AF38CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15629D99-FCBA-4DB7-A65D-576573AF38CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15629D99-FCBA-4DB7-A65D-576573AF38CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D7898AC-E74E-4F6E-BF9F-14371C6270A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D7898AC-E74E-4F6E-BF9F-14371C6270A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D7898AC-E74E-4F6E-BF9F-14371C6270A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D7898AC-E74E-4F6E-BF9F-14371C6270A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DEC7FB2-5F3B-4153-B41A-C46453E15E02}
+	EndGlobalSection
+EndGlobal
